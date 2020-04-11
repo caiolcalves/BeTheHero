@@ -39,5 +39,5 @@ The course was given with one class a day:
 
 ## Be More Than The Hero
 
-From this application it was created a [project]([https://github.com/caiolcalves/BeTheHero/projects/2](https://github.com/caiolcalves/BeTheHero/projects/2)) to add new features and enhance the application. For all features to be added issues will be created and added to this project. The issues will be defined by my own learning demand. 
+From this application it was created a project called [Be More Than The Hero](https://github.com/caiolcalves/BeTheHero/projects/2) to add new features and enhance the application. For all features to be added issues will be created and added to this project. The issues will be defined by my own learning demand. 
 
