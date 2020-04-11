@@ -46,10 +46,10 @@ export default function Incidents() {
     }, []);
 
     return (
-        <View styles={styles.container}>
-            <View styles={styles.header}>
+        <View style={styles.container}>
+            <View style={styles.header}>
                 <Image source={logoImg} />
-                <Text styles={styles.headerText}>
+                <Text style={styles.headerText}>
                     Total de <Text style={styles.headerTextBold}>{total} casos</Text>.
                 </Text>
             </View>
@@ -63,7 +63,7 @@ export default function Incidents() {
                 data={incidents}
                 style={styles.incidentList}
                 keyExtractor={incident => String(incident.id)}
-                showsVerticalScrollIndicator={false}
+                showsVerticalScrollIndicator={true}
                 onEndReached={loadIncidents}
                 onEndReachedThreshold={0.2}
                 renderItem={({ item: incident }) => (
